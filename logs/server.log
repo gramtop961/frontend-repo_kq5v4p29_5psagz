@@ -1,0 +1,19 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 242 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.57.117:3000/
+10:01:28 AM [vite] warning: Duplicate "style" attribute in JSX element
+30 |              }}
+31 |              transition={{ duration: 6 + (i % 5), repeat: Infinity, delay: i * 0.2, ease: 'easeInOut' }}
+32 |              style={{ top: `${(i * 7) % 100}%`, left: `${(i * 13) % 100}%` }}
+   |              ^
+33 |            />
+34 |          ))}
+
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Hero.jsx
